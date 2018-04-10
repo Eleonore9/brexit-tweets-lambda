@@ -1,2 +1,8 @@
 # brexit-tweets-lambda
-Lambda function to analysis Brexit tweets
+
+**Idea**: Use Lambda functions to analyse Brexit tweets
+
+_______
+MIT License
+
+Copyright (c) 2018 [Éléonore](https://twitter.com/EleonoreMayola)
