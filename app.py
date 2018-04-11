@@ -1,5 +1,13 @@
 import twitter
 import os
+from flask import Flask
+
+
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+    return "Hello World!"
 
 
 def get_brexit_tweets(ck, cs, tk, ts):
@@ -32,6 +40,6 @@ if __name__ == '__main__':
         print('ERROR: Please define environment variables consumer_key, consumer_secret, access_token_key, access_token_secret.')
         exit(1)
 
-    tw = get_brexit_tweets(c_key, c_secret, t_key, t_secret)
-    parsed_tw = parse_tweets(tw)
-    print("I have retrieved {} brexit tweets".format(len(parsed_tw)))
+    #tw = get_brexit_tweets(c_key, c_secret, t_key, t_secret)
+    #parsed_tw = parse_tweets(tw)
+    #print("I have retrieved {} brexit tweets".format(len(parsed_tw)))

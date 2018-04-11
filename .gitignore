@@ -1,9 +1,11 @@
 notes.txt
 py-tw-lambda/
-
 *~
 #*
 *#
+
+# Node deps
+node_modules/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
