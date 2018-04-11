@@ -34,4 +34,4 @@ if __name__ == '__main__':
 
     tw = get_brexit_tweets(c_key, c_secret, t_key, t_secret)
     parsed_tw = parse_tweets(tw)
-    print(parsed_tw[0])
+    print("I have retrieved {} brexit tweets".format(len(parsed_tw)))
